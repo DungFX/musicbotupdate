@@ -10,7 +10,7 @@ module.exports = client;
 var http = require("http");
 http
   .createServer(function (req, res) {
-    res.write("king Is Alive");
+    res.write("Salako Is Alive");
     res.end();
   })
   .listen(8080);
@@ -30,7 +30,7 @@ client.on("interactionCreate", async (interaction) => {
       )
       .setAuthor("Utility Commands")
       .setColor(client.embedColor)
-      .setFooter("king");
+      .setFooter("Salako");
 
     interaction.reply({ embeds: [embed6], ephemeral: true });
     return;
@@ -43,7 +43,7 @@ client.on("interactionCreate", async (interaction) => {
       .setDescription("`help, invite, ping, node, stats, uptime,`")
       .setAuthor("Information Commands")
       .setColor(client.embedColor)
-      .setFooter("Feel the Quality of king Music");
+      .setFooter("Feel the Quality of Salako Music");
     interaction.reply({ embeds: [embed1], ephemeral: true });
     return;
   }
@@ -55,7 +55,7 @@ client.on("interactionCreate", async (interaction) => {
       .setAuthor("Filter Commands")
 
       .setColor(client.embedColor)
-      .setFooter("king");
+      .setFooter("Salako");
 
     interaction.reply({ embeds: [embed2], ephemeral: true });
     return;
@@ -69,7 +69,7 @@ client.on("interactionCreate", async (interaction) => {
       )
       .setAuthor("Music Commands")
       .setColor(client.embedColor)
-      .setFooter("king");
+      .setFooter("Salako");
 
     interaction.reply({ embeds: [embed4], ephemeral: true });
     return;
@@ -81,7 +81,7 @@ client.on("interactionCreate", async (interaction) => {
       .setDescription("`24/7, setprefix, destroy`")
       .setAuthor("Settings")
       .setColor(client.embedColor)
-      .setFooter("king");
+      .setFooter("Salako");
     interaction.reply({ embeds: [embed5], ephemeral: true });
     return;
   }
